@@ -1,0 +1,15 @@
+-D LANGUAGE=en_us
+-D MESSAGESTYLE=neu
+-D INSTRUCTIONS_MENU
+
+-FC
+-Fy obj -Fo obj
+
+-o theGame.t3
+
+-lib system
+-lib adv3/adv3
+-x exits
+-x score
+-x hintsys
+-source index
