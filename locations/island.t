@@ -6,3 +6,27 @@ island: OutdoorRoom 'Strange Island'
   The air hummed with an electric tension,
   as if the island held an ancient secret waiting to be discovered. "
 ;
+
++ Button, Immovable
+  'green button*buttons'
+  'green button'
+  "Win Button"
+  dobjFor(Push) {
+    action() {
+      finishGameMsg(ftVictory, [finishOptionUndo]);
+    }
+  }
+  isListed = true
+;
+
++ Button, Immovable
+  'red button*buttons'
+  'red button'
+  "Loose Button"
+  dobjFor(Push) {
+    action() {
+      finishGameMsg(ftDeath, [finishOptionUndo]);
+    }
+  }
+  isListed = true
+;
