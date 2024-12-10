@@ -15,7 +15,9 @@ gameMain: GameMainDef
     /* Setting for 'exits' module. */
     exitLister.exitsOnOffExplained = true;
     exitsMode.inStatusLine = true;
-    exitsMode.inRoomDesc = false;
+    exitsMode.inRoomDesc = nil;
+    /* */
+    libMessages.oopsNote = nil;
     /* */
     cls();
     /* */
