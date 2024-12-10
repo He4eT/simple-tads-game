@@ -17,10 +17,8 @@ gameMain: GameMainDef
   }
 ;
 
-firstRoom: Room 'Starting Room'
-  "This is the boring starting room."
-;
+#include "characters/pc.t"
 
-+me: Actor
+#include "locations/startingRoom.t"
 
-;
+#include "items/note.t"
