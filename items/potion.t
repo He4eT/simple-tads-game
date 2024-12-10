@@ -1,4 +1,4 @@
-potion: Thing
+potion: Food
   'potion'
   'potion'
   "A small glass bottle filled with a glowing green potion.\n
@@ -6,4 +6,10 @@ potion: Thing
   It's sealed with a cork and looks both intriguing and powerful,
   hinting at magical properties within. "
   location = dude
+  dobjFor(Eat) {
+    action() {
+      "It was poisoned. ";
+      finishGameMsg(ftDeath, [finishOptionUndo]);
+    }
+  }
 ;
