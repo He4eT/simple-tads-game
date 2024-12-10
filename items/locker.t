@@ -20,6 +20,37 @@ locker: LockableContainer, Fixture
   }
 ;
 
++ Surface
+  'control panel'
+  'control panel'
+  "control panel with one button"
+;
+
+++ Button, Immovable
+  'large brown button*buttons'
+  'brown button'
+  "Large brown button"
+  dobjFor(Push) {
+    action() {
+      "The journey through hyperspace was a surreal blur of neon colors
+      and shifting geometric patterns, merging reality with digital abstraction.
+      Time and space bent, as the void outside pulsed with electric blues,
+      purples, and flashes of bright green.\b
+      Suddenly, a small stone island appeared,
+      suspended in the middle of the digital expanse.
+      It was rough and weathered, an anomaly surrounded by a shimmering,
+      pixelated sea that rippled with each moment.\b
+      The island seemed impossibly out of place,
+      a fragment of the physical world amid the boundless,
+      artificial cosmos, with only the faint static of data streams
+      breaking the eerie silence.\b
+      You arrived to the <b>Strange Island in the Middle Of Nowhere</b>";
+      me.scriptedTravelTo(startingRoom);
+    }
+  }
+  isListed = true
+;
+
 /* */
 
 modify VerbRule(SetTo)
