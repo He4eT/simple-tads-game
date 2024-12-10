@@ -25,8 +25,6 @@ gameMain: GameMainDef
   }
 ;
 
-#include "characters/pc.t"
-
 #include "locations/startingRoom.t"
 #include "locations/secondRoom.t"
 #include "locations/thirdRoom.t"
@@ -36,3 +34,8 @@ gameMain: GameMainDef
 #include "items/table.t"
 #include "items/oldDoor.t"
 #include "items/brokenDoor.t"
+
+#include "characters/pc.t"
+#include "characters/dude.t"
+
+#include "topics/gamedev.t"
