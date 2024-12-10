@@ -3,6 +3,13 @@ me: Actor
   location = startingRoom
 ;
 
++ phone: Thing
+  'mobile phone/cellphone'
+  'mobile phone'
+  "Your mobile phone.\n
+  It's Discharged. "
+;
+
 + jeans: Wearable
   'gray grey jeans/pants'
   'jeans'
