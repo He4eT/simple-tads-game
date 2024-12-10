@@ -2,6 +2,7 @@ secondRoom: Room 'Second Room'
   "This is another boring room with a few balloons and a painting on the wall. "
   roomParts = (inherited() - [defaultEastWall] + [secondRoomEastWall])
   north = startingRoom
+  south = oldDoorOutside
 ;
 
 + Decoration

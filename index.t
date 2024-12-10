@@ -29,7 +29,9 @@ gameMain: GameMainDef
 
 #include "locations/startingRoom.t"
 #include "locations/secondRoom.t"
+#include "locations/thirdRoom.t"
 
 #include "items/note.t"
 #include "items/fruitBox.t"
 #include "items/table.t"
+#include "items/oldDoor.t"
