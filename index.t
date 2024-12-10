@@ -32,3 +32,4 @@ gameMain: GameMainDef
 
 #include "items/note.t"
 #include "items/fruitBox.t"
+#include "items/table.t"
