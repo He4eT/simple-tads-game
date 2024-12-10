@@ -3,6 +3,7 @@ table: Heavy, Surface
   'wooden desk'
   "Massive wooden table with one drawer. "
   location = secondRoom
+  isListed = true
 ;
 
 + drawer: Component, OpenableContainer
