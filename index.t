@@ -28,5 +28,6 @@ gameMain: GameMainDef
 #include "characters/pc.t"
 
 #include "locations/startingRoom.t"
+#include "locations/secondRoom.t"
 
 #include "items/note.t"
