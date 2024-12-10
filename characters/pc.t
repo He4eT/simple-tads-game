@@ -7,7 +7,7 @@ me: Actor
   'mobile phone/cellphone'
   'mobile phone'
   "Your mobile phone.\n
-  It's Discharged. "
+  It's discharged. "
 ;
 
 + jeans: Wearable
