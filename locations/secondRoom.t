@@ -31,6 +31,5 @@ secondRoom: Room 'Second Room'
   'painting/image/picture/drawing*drawings'
   'picture on the wall'
   "Unframed reproduction of a famous painting glued to the wall.\n
-  In the corner, someone wrote four digits with a pink marker: <b>3339</b>.
-  "
+  In the corner, someone wrote four digits with a pink marker: <b>3339</b>. "
 ;
