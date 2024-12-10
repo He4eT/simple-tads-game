@@ -1,5 +1,6 @@
 secondRoom: Room 'Second Room'
   "This is another boring room with a few balloons and a painting on the wall. "
+  wallCode = '3339'
   roomParts = (inherited() - [defaultEastWall] + [secondRoomEastWall])
   north = startingRoom
   south = oldDoorOutside
@@ -31,5 +32,6 @@ secondRoom: Room 'Second Room'
   'painting/image/picture/drawing*drawings'
   'picture on the wall'
   "Unframed reproduction of a famous painting glued to the wall.\n
-  In the corner, someone wrote four digits with a pink marker: <b>3339</b>. "
+  In the corner, someone wrote four digits with a pink marker:
+  <b><<secondRoom.wallCode>></b>. "
 ;

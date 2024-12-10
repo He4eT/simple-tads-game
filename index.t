@@ -35,6 +35,7 @@ gameMain: GameMainDef
 #include "items/oldDoor.t"
 #include "items/brokenDoor.t"
 #include "items/potion.t"
+#include "items/locker.t"
 
 #include "characters/pc.t"
 #include "characters/dude.t"
