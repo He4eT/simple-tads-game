@@ -56,6 +56,8 @@ dude: Person
   "<q>I will later show you one of my games, dude!</q>"
 ;
 
+/* */
+
 + AskTopic [tPotion]
   topicResponse() {
     if (potion.location == dude) {
