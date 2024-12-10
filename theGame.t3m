@@ -9,7 +9,6 @@
 
 -lib system
 -lib adv3/adv3
--x exits
 -x score
 -x hintsys
 -source index

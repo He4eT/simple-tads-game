@@ -12,7 +12,13 @@ versionInfo: GameID
 gameMain: GameMainDef
   initialPlayerChar = me
   showIntro() {
+    /* Setting for 'exits' module. */
+    exitLister.exitsOnOffExplained = true;
+    exitsMode.inStatusLine = true;
+    exitsMode.inRoomDesc = false;
+    /* */
     cls();
+    /* */
     "This is the intro text.\b";
   }
 ;
