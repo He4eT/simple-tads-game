@@ -16,7 +16,7 @@ gameMain: GameMainDef
     exitLister.exitsOnOffExplained = true;
     exitsMode.inStatusLine = true;
     exitsMode.inRoomDesc = nil;
-    /* */
+    /* Disable OOPS message */
     libMessages.oopsNote = nil;
     /* */
     cls();
