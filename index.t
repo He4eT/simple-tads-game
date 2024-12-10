@@ -34,8 +34,10 @@ gameMain: GameMainDef
 #include "items/table.t"
 #include "items/oldDoor.t"
 #include "items/brokenDoor.t"
+#include "items/potion.t"
 
 #include "characters/pc.t"
 #include "characters/dude.t"
 
 #include "topics/gamedev.t"
+#include "topics/magic.t"

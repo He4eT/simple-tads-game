@@ -55,3 +55,15 @@ dude: Person
 + AskTopic [tGames]
   "<q>I will later show you one of my games, dude!</q>"
 ;
+
++ AskTopic [tPotion]
+  topicResponse() {
+    if (potion.location == dude) {
+      potion.moveInto(me);
+      "<q>Sure, dude! Take it.</q>\n
+      Now you have a potion in your inventory.";
+    } else {
+      "<q>I only had one potion. There's no more, man.</q>";
+    }
+  }
+;
