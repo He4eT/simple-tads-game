@@ -44,8 +44,8 @@ locker: LockableContainer, Fixture
       a fragment of the physical world amid the boundless,
       artificial cosmos, with only the faint static of data streams
       breaking the eerie silence.\b
-      You arrived to the <b>Strange Island in the Middle Of Nowhere</b>";
-      me.scriptedTravelTo(startingRoom);
+      You arrived to the <b>Strange Island in the Middle Of Nowhere</b>. ";
+      me.moveIntoForTravel(island);
     }
   }
   isListed = true
