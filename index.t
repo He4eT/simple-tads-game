@@ -31,3 +31,4 @@ gameMain: GameMainDef
 #include "locations/secondRoom.t"
 
 #include "items/note.t"
+#include "items/fruitBox.t"
