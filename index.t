@@ -35,3 +35,4 @@ gameMain: GameMainDef
 #include "items/fruitBox.t"
 #include "items/table.t"
 #include "items/oldDoor.t"
+#include "items/brokenDoor.t"
