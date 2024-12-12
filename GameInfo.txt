@@ -3,7 +3,7 @@ Byline: by Author
 AuthorEmail: Author <author@fake.org>
 Desc: This is an example of how to start a new game project. 
 Version: 0
-ReleaseDate: 2024-12-10
+ReleaseDate: 2024-12-12
 Language: en-US
 LicenseType: Freeware
 CopyingRules: Nominal cost only; compilations allowed
