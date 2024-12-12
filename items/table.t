@@ -18,7 +18,6 @@ table: Heavy, Surface
   "Just a chaotic pile of torn and crumpled notebook pages. "
   isListed = true
   dobjFor (Search) remapTo(Search, drawer)
-
 ;
 
 ++ goldKey: Key, Hidden

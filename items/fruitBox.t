@@ -20,7 +20,7 @@ fruitBox: OpenableContainer, Heavy
   "The lid is made of wood and decorated with a sticker. "
 ;
 
-++ Decoration 'sticker' 'sticker'
++ Decoration 'sticker' 'sticker'
   "It's just a sticker with a silly face. "
 ;
 
