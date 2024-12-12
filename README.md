@@ -1,4 +1,4 @@
-# A simple TADS game
+# A simple TADS3 game
 
 This is a small game that illustrates some aspects of development with TADS3.
 
